@@ -1,0 +1,21 @@
+.Container{
+    display: flex;
+    justify-content: space-between;  
+    width: 250%;
+    border: 2px solid red;     
+}
+
+.Container--Rigth{
+    display: flex;
+    flex-direction: row;    
+    justify-content:flex-start;
+    max-width: 300px;
+    /* align-items: center; */
+    /* border: 2px solid blueviolet; */
+}
+.Container--Rigth img{
+    max-width: 40%;
+    object-fit: cover;
+    border: 2px solid green;
+}
+
